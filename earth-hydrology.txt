@@ -1,0 +1,48 @@
+#링크
+https://gist.edwith.org/earth-hydrology
+
+
+# 강의자
+윤진호 교수님
+GIST 지구환경공학부 윤진호 교수님
+김형준 교수님
+KAIST 문술미래전략대학원 김형준 교수님
+
+# 설명
+본 강좌는 지구의 에너지와 물 순환에 관여하는 대기와 지면의 기본적인 물리적 과정들을 이해하는 것을 목적으로 합니다. 기후 과학과 수공학의 융합형 학문인 지구수문학의 기초에 대해 학습합니다.
+
+# 강의계획 및 커리큘럼
+강의
+Introduction to Global Hydrology
+지구수문학이란?
+전 지구 물 순환
+전 지구 에너지 순환
+연구방법론 Numerical Modeling
+연구방법론 Remore Sensing
+Water in the Atmosphere: overview
+개관: 대기 중의 물
+강수 혹은 강설
+구름
+수증기
+Water in the atmosphere: physical mechanisms
+에너지 순환과의 접점
+대기 중 물 수송
+몬순과 사막 기후
+미래 대기 물 순환
+Water in the Land and Terrestrial Wate Cycle
+육지의 물
+증발산
+유출량과 하천유량
+저류량
+Hydrologic Complexity within Earth System
+에너지 및 물 순환의 결합
+지면 대기 상호작용
+기수 시스템과 수문 변동성
+극한현상 Exterme Events
+Global Water Cycle in Anthropocene
+인류세
+기후변화
+인간활동의 영향
+탄소중립
+지구 물순환의 미래 변화와 기후변화 적응
+

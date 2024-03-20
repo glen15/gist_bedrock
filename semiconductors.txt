@@ -1,0 +1,76 @@
+#링크https://gist.edwith.org/semiconductors
+
+
+# 강의자
+조영달 교수
+<EDUCATION>
+· 2002 Ph.D. in Physics, Seoul National Univ. (Quantum Electronics)
+· 1997 M.S. in Physics, Seoul National Univ. (THz photonics)
+· 1995 B.S. in Physics, Seoul National Univ.
+
+<WORK EXPERIENCE>
+· 2007 -Professor, School of Elect. Eng. & Comp. Sci. GIST
+· 2023 -Professor, Dep. of Semi. Eng., GIST 
+· 2015 - 2016 Visiting Prof., Caltech
+· 2004 - 2005 Assistant Scientist, Univ. of Florida
+· 2003 - 2004 Postdoc. Associate, Nat'l High Magnetic Field Lab. (USA)
+
+# 설명
+✔ More Moore, More than Moore, Beyond CMOS 등 다양한 전공정 기술 패러다임을  IRDS(International Roadmap for Devices and Systems) 기반으로 단기(~15년)와 장기(~25년)로 나누어 전망하고, 미래반도체 패키징 방법에 대해서 HIR (Heterogeneous Integration Roadmap)을 기반으로 논의합니다. 미래 반도체 핵심 아키텍쳐인 AI, 양자컴퓨팅, 병렬-직렬 연계, 전자-광-방열 연계에 대한 주요 기술적인 고려사항을 검토됩니다. 이를 통해 연산 속도를 향상시키면서 다양한 기능을 통합하는 미래 반도체 엔지니어링 아키텍처에 대해 직관적으로 비전을 제시합니다.
+✔ Based on IRDS (International Roadmap for Devices and Systems), various front-end-of-line process technology paradigms such as More Moore, More than Moore, and Beyond CMOS are divided into short-term (~15 years) and long-term (~25 years) forecasts after reviewing  the current status of semiconductor industries, and back-end-of-line processes are reviewed and forecasted based on HIR (Heterogeneous Integration Roadmap).  Technical requirements and key considerations for prospected alternatives suh as quantum computing, parallel-serial linkage, novel materials, and electron-photon-heat dissipation linkage are reviewed. This provides an intuitive vision for future semiconductor engineering architectures that integrate diverse functions while increasing computational speed.
+
+# 강의계획 및 커리큘럼
+강의
+CHAPTER 1. The past, present and future of semiconductors
+1-1. Interview
+1-2. 반도체의 과거와 현재, 그리고 미래
+1-3. 오리엔테이션
+CHAPTER 2. Beyond the limits of Moore’s law
+2-1. Beyond the limits of Moore’s law (1)
+2-2. Beyond the limits of Moore’s law (2)
+CHAPTER 3. Grand Challenges
+3-1. Interview
+3-2. Grand Challenges (1)
+3-3. Grand Challenges (2)
+CHAPTER 4. More Moore (1)
+4-1. Interview
+4-2. Introduction, Summary and Key Points
+4-3. Challenges
+CHAPTER 5. More Moore (2)
+5-1. Interview
+5-2. Technology Requirements - Logic Technologies
+5-3. Technology Requirements - Memory Technologies
+CHAPTER 6. Lithography
+6-1. Interview
+6-2. Lithography (1)
+6-3. Lithography (2)
+CHAPTER 7. Metrology (1)
+7-1. Metrology (1)
+7-2. Metrology (2)
+CHAPTER 9. Metrology (2)
+9-1. Technology Requirements (1)
+9-2. Technology Requirements (2)
+CHAPTER 10. Beyond CMOS
+10-1. Introduction, Emerging Memory Devices
+10-2. Emerging Logic and Alternative Information Processing Devices
+CHAPTER 11. Quantum Information Processing
+11-1. Introduction to QIP and QC
+11-2. Summary and Key Points
+11-3. Quantum Information Processing
+CHAPTER 12. Overview of HIR
+12-1. Heterogeneous Integration Roadmap Overview (1)
+12-2. Heterogeneous Integration Roadmap Overview (2)
+CHAPTER 13. High Performance Computing and Data Centers
+13-1. High Performance Computing and Data Centers (1)
+13-2. High Performance Computing and Data Centers (2)
+CHAPTER 14. Integrated Photonics
+14-1. Interview
+14-2. Integrated Photonics
+CHAPTER 15. Thermal
+15-1. Canonical Problems with Thermal Challenges
+15-2. Advanced Technologies and Research Innovations
+
+#추가정보
+선행 수업: 반도체 재료 및 소자
+IRDS roadmaps are available from https://irds.ieee.org/editions 
+HIR roadmaps are available from https://eps.ieee.org/technology/heterogeneous-integration-roadmap.html
