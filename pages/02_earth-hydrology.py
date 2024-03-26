@@ -1,5 +1,5 @@
 import streamlit as st
-import boto3
+import requests
 import json
 
 
@@ -41,32 +41,36 @@ for message in st.session_state["messages_02"]:
 
 message_02 = st.chat_input("수업에 관해 물어보세요!")
 if class_data == "":
-    message_02_with_data = "아직 강의자료가 업데이트되지 않음"
+    message_02_with_data = "아직 강의자료가 업데이트되지 않았습니다."
+    if message_02:
+        send_message(message_02, "human")
+        send_message(f"{message_02_with_data}", "ai")
 else:
     message_02_with_data = (
         f"'{class_data}'에 기반해서 '{message_02}'내용에 대해서 답해라"
     )
-
-body = json.dumps(
-    {
-        "max_tokens": 1024,
-        "messages": [{"role": "user", "content": message_02_with_data}],
-        "anthropic_version": "bedrock-2023-05-31",
-    }
-)
-
-
-if message_02:
-    send_message(message_02, "human")
-
-    bedrock = boto3.client(service_name="bedrock-runtime", region_name="us-east-1")
-    response = bedrock.invoke_model(
-        body=body, modelId="anthropic.claude-3-sonnet-20240229-v1:0"
+    body = json.dumps(
+        {
+            "max_tokens": 1024,
+            "messages": [{"role": "user", "content": message_02_with_data}],
+            "anthropic_version": "bedrock-2023-05-31",
+        }
     )
-    response_body = json.loads(response.get("body").read())
-    data = response_body.get("content")[0]
-    ai_result = data["text"]
+    if message_02:
+        send_message(message_02, "human")
 
-    send_message(f"{ai_result}", "ai")
+        # Lambda 함수 URL
+        lambda_url = (
+            "https://s4myrcprrekkd5mwfle5rc3nzu0nzobp.lambda-url.ap-northeast-2.on.aws/"
+        )
+        with st.spinner("잠시만 기다려 주세요..."):
+            # HTTP POST 요청 보내기
+            response = requests.post(lambda_url, json=body)
 
-    del bedrock
+            # 응답 받기 및 처리
+            if response.status_code == 200:
+                response_data = response.json()
+                ai_result = response_data["message"]
+                send_message(ai_result, "ai")
+            else:
+                send_message("문제가 발생했습니다.", "ai")
